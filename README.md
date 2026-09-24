@@ -32,3 +32,12 @@ Fotos usadas: [mesa de fondue](https://www.instagram.com/restaurantesino/p/Ddm2W
 ## Estrutura
 
 Site estático em `index.html`, `styles.css` e `script.js`, com fotos locais em `assets/`. O script abre o vídeo incorporado após o clique na capa, apresenta a escolha de GPS e aplica transições discretas aos cards; sem JavaScript, a capa leva à publicação original. Não há formulário, conta de usuário ou coleta própria de dados. O vídeo incorporado é servido pelo Instagram; os links de WhatsApp, Instagram, Google Maps e Waze levam aos serviços externos.
+
+## SEO, AEO e GEO da prévia
+
+- **SEO:** título, descrição, idioma, hierarquia de títulos, HTML semântico, textos alternativos, imagens dimensionadas e carregamento adiado fora da primeira tela. A página tem metadados de compartilhamento e dados estruturados `Restaurant` com nome, contato, endereço, coordenadas, imagens e Instagram verificados.
+- **AEO:** respostas visíveis e concisas para perguntas sobre endereço, pratos, contato e vídeo, com links úteis. As respostas são conteúdo para pessoas, sem promessa de resultado enriquecido em buscas.
+- **GEO:** identidade do restaurante, localização e destaques gastronômicos expressos em texto claro e consistente com os dados estruturados, apoiados por fotos e vídeo oficiais. Não existe marcação especial que garanta citação em respostas de IA.
+- **Prévia:** `noindex, nofollow` continua ativo. Antes da publicação oficial, trocar as URLs de prévia nos metadados e no JSON-LD pelo domínio aprovado, adicionar URL canônica, retirar `noindex`, verificar a propriedade no Search Console e alinhar as informações com o Perfil da Empresa no Google. Indexação e visibilidade não são automáticas.
+
+Referências técnicas: [guia do Google para busca com IA](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [dados estruturados de negócios locais](https://developers.google.com/search/docs/appearance/structured-data/local-business) e [controle de indexação](https://developers.google.com/search/docs/crawling-indexing/block-indexing).

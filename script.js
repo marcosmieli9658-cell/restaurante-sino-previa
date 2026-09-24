@@ -39,7 +39,7 @@ if (routeTrigger && routeDialog) {
 }
 
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
-  const cards = document.querySelectorAll('.flavor-card, .gallery-item, .video-frame, .map-wrap');
+  const cards = document.querySelectorAll('.flavor-card, .gallery-item, .video-frame, .map-wrap, .question-item');
   const cardObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
