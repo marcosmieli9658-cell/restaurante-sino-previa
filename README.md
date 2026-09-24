@@ -2,6 +2,8 @@
 
 Site de uma página para apresentação ao responsável pelo Restaurante do Sino, em Campos do Jordão. A publicação em GitHub Pages serve como prévia para revisão; o site ainda não está associado a um domínio oficial. A página contém `noindex, nofollow` enquanto estiver nessa fase.
 
+**Prévia:** https://marcosmieli9658-cell.github.io/restaurante-sino-previa/
+
 ## Plano de ação
 
 1. **Levantar as informações públicas:** conferir perfil do Instagram, localização do Google, contato, fotos e o vídeo da TV Vanguarda publicado pelo restaurante.
@@ -28,4 +30,4 @@ Fotos usadas: [mesa de fondue](https://www.instagram.com/restaurantesino/p/Ddm2W
 
 ## Estrutura
 
-Site estático em `index.html`, `styles.css` e `script.js`, com fotos locais em `assets/`. O pequeno script abre o vídeo incorporado após o clique na capa; sem JavaScript, a capa leva à publicação original. Sem servidor, conta de usuário ou coleta de dados. Links de WhatsApp, Instagram e Maps levam aos serviços externos.
+Site estático em `index.html`, `styles.css` e `script.js`, com fotos locais em `assets/`. O pequeno script abre o vídeo incorporado após o clique na capa; sem JavaScript, a capa leva à publicação original. Não há formulário, conta de usuário ou coleta própria de dados. O vídeo incorporado é servido pelo Instagram; os links de WhatsApp, Instagram e Maps levam aos serviços externos.
